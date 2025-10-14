@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: todo-add-tasks-api
       IMAGE_TAG: v1
-      ACR_NAME: acrdevtodoapp01
-      ACR_LOGIN_SERVER: acrdevtodoapp01.azurecr.io
+      ACR_NAME: acrdevtodoproject01
+      ACR_LOGIN_SERVER: acrdevtodoproject01.azurecr.io
 
     steps:
       - name: Checkout code
