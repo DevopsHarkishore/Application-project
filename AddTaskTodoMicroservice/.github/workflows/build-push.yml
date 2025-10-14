@@ -33,7 +33,7 @@ jobs:
           az acr login --name $ACR_NAME
 
       - name: Build Docker Image
-        working-directory: AddTaskTodoMicroservice
+        working-directory: "./AddTaskTodoMicroservice"
         run: |
           docker build -t $IMAGE_NAME:$IMAGE_TAG .
 
